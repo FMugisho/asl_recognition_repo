@@ -1,15 +1,14 @@
-
 # Real-time ASL Recognition Web Application
 
-This repository contains a web application that allows users to translate American Sign Language (ASL) signs to text in real-time. The application uses the user's webcam to capture video frames and processes them using a deep learning model to recognize ASL signs. The recognized signs are displayed as a list on the web page as they are identified.
+This repository contains a web application that allows users to translate American Sign Language (ASL) signs to text in real-time. The application uses the user's webcam to capture video frames in batches every second and processes them using a deep learning model to recognize ASL signs. The recognized signs are displayed as a list on the web page as they are identified.
 
 ## Features
 
-- Real-time ASL sign recognition
+- Real-time ASL sign recognition with batch processing of frames
 - User-friendly interface with video feed, start/stop buttons, and result display
 - Front-end built using HTML, CSS, and JavaScript
 - Back-end built using Python Flask web framework
-- REST API for processing video frames and returning recognized signs
+- REST API for processing batches of video frames and returning recognized signs
 
 ## Prerequisites
 
